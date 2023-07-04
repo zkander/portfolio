@@ -17,6 +17,7 @@ const EarthModel = () => {
       frameLoop="demand"
       gl={{ preserveDrawingBuffer: true }}
       camera={{}}
+      // className="h-auto w-auto"
     >
       <Suspense>
         <OrbitControls
