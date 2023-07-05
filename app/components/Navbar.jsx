@@ -40,7 +40,8 @@ function Navbar() {
 
       <div className="navbar-center">
         <a className=" text-[11px] sm:text-base font-serif italic">
-          "The cure for ignorance is to question. - Prophet Muhammad (PBUH)"
+          &quot;The cure for ignorance is to question.&quot; - Prophet Muhammad
+          (PBUH)
         </a>
       </div>
       <div className="navbar-end"></div>
