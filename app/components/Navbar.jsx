@@ -29,10 +29,7 @@ function Navbar() {
               <a>Homepage</a>
             </li>
             <li>
-              <a>Portfolio</a>
-            </li>
-            <li>
-              <a>About</a>
+              <a>Resume</a>
             </li>
           </ul>
         </div>
