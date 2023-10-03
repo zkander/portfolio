@@ -7,7 +7,7 @@ import { GLTFLoader } from "three/examples/jsm/loaders/GLTFLoader";
 
 function Earth() {
   const earth = useLoader(GLTFLoader, "../../planet/scene.gltf");
-  return <primitive object={earth.scene} scale={1.24} position-y={0} />;
+  return <primitive object={earth.scene} scale={1.4} position-y={0} />;
 }
 
 const EarthModel = () => {
@@ -17,7 +17,7 @@ const EarthModel = () => {
       frameLoop="demand"
       gl={{ preserveDrawingBuffer: true }}
       camera={{}}
-      // className="h-auto w-auto"
+      className="h-24"
     >
       <Suspense>
         <OrbitControls

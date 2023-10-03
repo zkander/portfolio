@@ -36,7 +36,7 @@ function Navbar() {
       </div>
 
       <div className="navbar-center">
-        <a className=" text-[9px] sm:text-base font-serif italic">
+        <a className=" text-[9px] sm:text-base font-serif italic text-[white]">
           &quot;The cure for ignorance is to question.&quot; - Prophet Muhammad
           (PBUH)
         </a>
