@@ -1,4 +1,5 @@
 import React from "react";
+import Link from "next/link";
 
 function Navbar() {
   return (
@@ -26,10 +27,10 @@ function Navbar() {
             className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52"
           >
             <li>
-              <a>Homepage</a>
+              <Link href="/">Home</Link>
             </li>
             <li>
-              <a>Resume</a>
+              <Link href="/resume">Resume</Link>
             </li>
           </ul>
         </div>
